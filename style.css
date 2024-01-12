@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url("pexels-artem-saranin-1685111.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+    background: linear-gradient(160deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+h2 {
+    user-select: none;
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(0, 241, 243);
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 16px;
+    margin-left: 20px;
+    color: rgb(0, 241, 243);
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.main-content {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.main-content h1 {
+    font-size: 44px;
+}
+
+.main-content p {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.main-content button {
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 12px 28px;
+    border-radius: 8px;
+    background: mintcream;
+    color: black;
+    transition: .4s;
+}
+
+.main-content button:hover {
+    color: mintcream;
+    background: black;
+}
